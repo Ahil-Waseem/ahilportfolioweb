@@ -1,0 +1,41 @@
+/* src/components/Navbar.css */
+.navbar {
+    background-color: #333;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar-logo {
+    color: red; /* Set the text color to red */
+    font-weight: bold; /* Make the text bold */
+    font-size: 1.5rem; /* Optional: Adjust font size */
+  }
+  
+  .navbar-list {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar-item {
+    margin-left: 20px; /* Add some space between the list items */
+  }
+  
+  .navbar-item a {
+    color: white; /* White text color */
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+  }
+  
+  .navbar-item a:hover {
+    background-color: #e72a2a; /* Add hover effect */
+  }
+  .welcome-heading {
+    text-align: center;
+    padding: 50px 0;
+    position: relative;
+  }
+  

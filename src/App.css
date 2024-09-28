@@ -1,0 +1,329 @@
+/* App.css */
+section {
+  padding: 100px 20px;
+  height: 100vh;
+  text-align: center;
+}
+
+.home-section {
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home-content {
+  display: flex;
+  align-items: center;
+  max-width: 1200px;
+  width: 100%;
+}
+.about-section {
+  background-color: #e0e0e0;
+  padding-top: 20px;
+  min-height: 120vh;
+}
+.about-section {
+  background-color: #e0e0e0;
+  padding: 40px 20px; /* Adjusted padding */
+}
+
+.about-section h2 {
+  font-size: 4rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.about-content {
+  display: flex;
+  flex-direction: column; /* Stack paragraphs vertically */
+  align-items: center; /* Center paragraphs */
+  padding: 0 20px; /* Add horizontal padding */
+}
+
+.para1 {
+  background-color: #ffffff; /* White background for paragraphs */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  margin: 10px 0; /* Margin between paragraphs */
+  padding: 10px; /* Padding inside each paragraph */
+  max-width: 1000px; /* Limit width for better readability */
+  font-style: oblique;
+  font-size:xx-large;
+}
+
+.para2 {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin: 20px 0;
+  padding: 20px;
+  max-width: 1500px;
+  font-size: 1.5rem; /* Increased font size */
+  font-weight:400;
+  font-style: oblique;
+  color: #000000; /* Darker text color for contrast */
+  line-height: 1.6; /* Line height for better readability */
+}
+.skills-section {
+  justify-content: space-between;
+  background-color: #f0f0f0; /* Light background color */
+  padding: 20px; /* Adjusted padding */
+  text-align: center; 
+  min-height: 120vh;
+}
+
+.skills-content {
+  display: flex;
+  justify-content: space-between; /* Align languages and frameworks to the sides */
+  padding: 20px; /* Padding around the content */
+}
+
+.languages, .frameworks, .tools{
+  background-color: #ffffff; /* White background for each section */
+  border-radius: 140px; /* Rounded corners */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  padding: 20px; /* Padding inside each section */
+  width: 30%; /* Width for each section */
+  margin-top: 20px;
+  
+}
+.skills-section h1 {
+  font-size: 3rem; /* Heading size */
+  color: #000000; /* Heading color */
+}
+
+.languages h2, .frameworks h2 {
+  font-size: 2rem; /* Subheading size */
+  color: #020202; /* Subheading color */
+}
+
+.languages ol, .frameworks ol {
+  font-size: 1.5rem; /* List item size */
+  color: #020202; /* List item color */
+}
+
+.home-image {
+  flex: 1;
+  padding-right: 20px;
+  /* padding-top: 200px; */
+}
+
+.home-image img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 40px;
+  
+}
+.home-text {
+  flex: 2;
+  text-align: left;
+}
+.home-text h1{
+ text-align: center;
+}
+.top-heading h1{
+  text-align:justify;
+  font-size: 3rem;
+}
+
+.home-text h2 {
+  color: #000000;
+  font-size: 4rem;
+  margin-bottom: 20px;
+}
+.home-text h2 span{
+color:red;
+}
+
+.home-text p {
+  font-size: 1.2rem;
+  color: #555;
+}
+.about-section {
+  background-color: #e0e0e0;
+}
+
+.contact-section {
+  background-color: #d0d0d0;
+}
+.skills-section {
+
+  background-color: #e6cdcd;
+}
+
+/* Navbar.css */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #333;
+  padding: 1rem;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar-logo {
+  color: rgb(255, 9, 9);
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-left: 40px;
+}
+
+.navbar-list {
+  list-style: none;
+  display: flex;
+  margin: 0;
+}
+
+.navbar-item {
+  margin-left: 20px;
+  margin-right: 50px;
+}
+
+.navbar-item button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.navbar-item button:hover {
+  text-decoration: underline;
+  color: rgb(12, 197, 253);
+}
+
+.home-text h2 {
+  color: #000000;
+  font-size: 4rem;
+  margin-bottom: 20px;
+}
+.home-text h2 span{
+color:red;
+}
+
+.home-text p {
+  font-size: 1.2rem;
+  color: #555;
+}
+.about-section {
+  background-color: #e0e0e0;
+}
+
+.contact-section {
+  background-color: #d0d0d0;
+}
+
+/* Navbar.css */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #333;
+  padding: 1rem;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar-logo {
+  color: rgb(255, 9, 9);
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-left: 40px;
+}
+
+.navbar-list {
+  list-style: none;
+  display: flex;
+  margin: 0;
+}
+
+.navbar-item {
+  margin-left: 20px;
+  margin-right: 50px;
+}
+
+.navbar-item button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.navbar-item button:hover {
+  text-decoration: underline;
+  color: rgb(12, 197, 253);
+}
+/* Contact us page form css */
+.contact-section h1 {
+  font-size: 4rem; /* Increase h1 size */
+  margin-bottom: 10px; /* Add some space below the heading */
+}
+
+.contact-section h2 {
+  font-size: 3rem; /* Increase h2 size */
+  margin-bottom: 10px; /* Add some space below the subheading */
+}
+.contact-section {
+  background-color: #d0d0d0; /* Existing background color */
+  min-height: 150vh;
+}
+.contact-form-container {
+  background-color: #f9f9f9; /* Light background color for the form */
+  padding: 70px; /* Padding around the form */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  max-width: 800px; /* Maximum width for the form container */
+  margin: auto; /* Center the container */
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.contact-form label {
+  margin-bottom: 8px;
+}
+
+.contact-form input,
+.contact-form select {
+  margin-bottom: 15px; /* Space between inputs */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px; /* Rounded corners for inputs */
+}
+
+.contact-form button {
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #007bff; /* Button color */
+  color: white; /* Text color */
+  border: none;
+  border-radius: 4px; /* Rounded corners for button */
+  cursor: pointer;
+  width: 100px;
+}
+
+.contact-form button:hover {
+  background-color: #0056b3; /* Darker button color on hover */
+}
+/*  for making form responsive */
+@media (max-width: 600px) {
+  .contact-form label {
+    font-size: 1.2rem;
+  }
+
+  .contact-form input,
+  .contact-form select {
+    font-size: 1rem;
+  }
+
+  .contact-form button {
+    font-size: 1.2rem;
+  }
+}
+
