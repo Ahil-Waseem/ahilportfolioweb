@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/ahilportfolioweb/static/css/main.bba066b8.css",
+    "main.js": "/ahilportfolioweb/static/js/main.df7519e4.js",
+    "static/js/453.14fcdde7.chunk.js": "/ahilportfolioweb/static/js/453.14fcdde7.chunk.js",
+    "static/media/devloperimg.png.png": "/ahilportfolioweb/static/media/devloperimg.png.ff2c13e2df33d8341743.png",
+    "index.html": "/ahilportfolioweb/index.html",
+    "main.bba066b8.css.map": "/ahilportfolioweb/static/css/main.bba066b8.css.map",
+    "main.df7519e4.js.map": "/ahilportfolioweb/static/js/main.df7519e4.js.map",
+    "453.14fcdde7.chunk.js.map": "/ahilportfolioweb/static/js/453.14fcdde7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bba066b8.css",
+    "static/js/main.df7519e4.js"
+  ]
+}
