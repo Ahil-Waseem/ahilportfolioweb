@@ -46,8 +46,8 @@ const App = () => {
         <div className='about-content'>
         <div className='para1'>
         <p>
-        My self Ahil Waseem. I am from Mumbai Mankhurd.I am a graduste from Jananayak Chandra Shekhar University.
-          I am also a Diploma holder as a FULL STACK JAVA DEVELOPER from IIHT VASHI-NAVI|AIIITS - MUMBAI.
+        My self Ahil Waseem. I am from Mumbai Mankhurd.I am a graduate from Jananayak Chandra Shekhar University.
+          I am also a Diploma holder as a FULL STACK JAVA DEVELOPER from IIHT VASHI-NAVI MUMBAI|AIIITS - MUMBAI.
           My Father is a Business Man and My Mother is house wife.
         </p>
         </div>
